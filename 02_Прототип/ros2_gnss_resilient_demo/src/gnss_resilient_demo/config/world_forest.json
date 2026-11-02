@@ -1,0 +1,22 @@
+{
+  "name": "Лесная дорога", "kind": "forest", "bounds": [-8, -8, 108, 78],
+  "initial_pose": [2, 8, 0],
+  "vehicle": {"radius": 0.8, "auto_speed": 5.2, "max_yaw_rate": 1.25},
+  "route": [[2,8],[28,8],[48,18],[70,12],[96,24],[88,48],[66,63],[38,58],[16,45],[2,8]],
+  "obstacles": [{"id":"ranger","rect":[46,35,12,9]},{"id":"warehouse","rect":[72,36,12,10]}],
+  "tunnels": [],
+  "gnss_zones": [{"id":"dense_canopy","rect":[12,14,77,43]}],
+  "markers": [
+    {"id":301,"x":25,"y":12,"facing":-1.2}, {"id":302,"x":51,"y":22,"facing":-1.8},
+    {"id":303,"x":91,"y":30,"facing":2.8}, {"id":304,"x":68,"y":58,"facing":1.2},
+    {"id":305,"x":18,"y":42,"facing":0.0}
+  ],
+  "beacons": [{"id":"B1","x":2,"y":-1,"coverage":80},{"id":"B2","x":100,"y":10,"coverage":80},{"id":"B3","x":94,"y":72,"coverage":80},{"id":"B4","x":-2,"y":61,"coverage":80},{"id":"B5","x":55,"y":34,"coverage":80}],
+  "decorations": [
+    {"type":"forest","rect":[5,15,32,24],"density":28},
+    {"type":"forest","rect":[58,18,34,24],"density":32},
+    {"type":"forest","rect":[24,43,30,21],"density":25},
+    {"type":"forest","rect":[72,48,23,17],"density":18},
+    {"type":"lake","rect":[38,4,13,9]}, {"type":"label","x":50,"y":40,"text":"КОРДОН"}
+  ]
+}

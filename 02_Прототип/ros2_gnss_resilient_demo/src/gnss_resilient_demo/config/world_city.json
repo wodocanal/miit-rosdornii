@@ -1,0 +1,24 @@
+{
+  "name": "Плотный город", "kind": "city", "bounds": [-8, -8, 108, 78],
+  "initial_pose": [5, 5, 0],
+  "vehicle": {"radius": 0.8, "auto_speed": 5.2, "max_yaw_rate": 1.25},
+  "route": [[5,5],[42,5],[72,5],[96,18],[96,52],[82,66],[48,66],[18,58],[5,38],[5,5]],
+  "obstacles": [
+    {"id":"block_a","rect":[16,14,18,16]}, {"id":"block_b","rect":[42,14,20,20]},
+    {"id":"block_c","rect":[70,16,15,17]}, {"id":"block_d","rect":[17,37,20,14]},
+    {"id":"block_e","rect":[46,42,18,15]}, {"id":"block_f","rect":[72,40,14,13]}
+  ],
+  "tunnels": [{"id":"underpass","rect":[36,0,18,10]}],
+  "gnss_zones": [{"id":"urban_core","rect":[38,10,51,50]}],
+  "markers": [
+    {"id":101,"x":36,"y":9,"facing":-1.57}, {"id":102,"x":67,"y":9,"facing":-1.57},
+    {"id":103,"x":91,"y":36,"facing":3.14}, {"id":104,"x":67,"y":62,"facing":1.57},
+    {"id":105,"x":12,"y":42,"facing":0.0}
+  ],
+  "beacons": [{"id":"B1","x":0,"y":0,"coverage":80},{"id":"B2","x":101,"y":3,"coverage":80},{"id":"B3","x":101,"y":70,"coverage":80},{"id":"B4","x":0,"y":70,"coverage":80},{"id":"B5","x":52,"y":37,"coverage":80}],
+  "decorations": [
+    {"type":"label","x":48,"y":36,"text":"ЦЕНТР"}, {"type":"park","rect":[88,57,12,11]},
+    {"type":"parking","rect":[3,61,12,9]}, {"type":"water","rect":[-5,48,13,18]},
+    {"type":"crosswalk","x":40,"y":5,"yaw":0}, {"type":"crosswalk","x":96,"y":34,"yaw":1.57}
+  ]
+}

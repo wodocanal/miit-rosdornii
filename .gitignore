@@ -11,6 +11,14 @@ tmp/
 *.tmp
 *.bak
 
+# ROS 2 / Python build artifacts
+**/build/
+**/install/
+**/log/
+**/.pytest_cache/
+**/__pycache__/
+*.pyc
+
 # Office lock files
 ~$*.pptx
 ~$*.docx
@@ -25,4 +33,3 @@ tmp/
 03_Видеозащита/*.mkv
 03_Видеозащита/*.avi
 03_Видеозащита/*.webm
-

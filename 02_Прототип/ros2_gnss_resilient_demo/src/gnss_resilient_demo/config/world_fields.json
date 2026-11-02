@@ -1,0 +1,24 @@
+{
+  "name": "Поля и посёлок", "kind": "fields", "bounds": [-8, -8, 108, 78],
+  "initial_pose": [3, 8, 0],
+  "vehicle": {"radius": 0.8, "auto_speed": 6.0, "max_yaw_rate": 1.25},
+  "route": [[3,8],[44,8],[72,16],[98,28],[91,55],[62,67],[28,62],[8,44],[3,8]],
+  "obstacles": [
+    {"id":"farm","rect":[18,18,14,10]}, {"id":"barn","rect":[38,36,18,12]},
+    {"id":"village_1","rect":[67,39,10,8]}, {"id":"village_2","rect":[80,42,9,8]}
+  ],
+  "tunnels": [], "gnss_zones": [{"id":"tree_line","rect":[84,50,14,15]}],
+  "markers": [
+    {"id":201,"x":38,"y":12,"facing":-1.57}, {"id":202,"x":76,"y":21,"facing":-1.8},
+    {"id":203,"x":86,"y":54,"facing":1.1}, {"id":204,"x":40,"y":59,"facing":1.57},
+    {"id":205,"x":10,"y":38,"facing":0.0}
+  ],
+  "beacons": [{"id":"B1","x":-1,"y":2,"coverage":80},{"id":"B2","x":102,"y":8,"coverage":80},{"id":"B3","x":97,"y":71,"coverage":80},{"id":"B4","x":4,"y":68,"coverage":80},{"id":"B5","x":50,"y":35,"coverage":80}],
+  "decorations": [
+    {"type":"field","rect":[8,15,25,18],"color":"#d8c66d","rows":true},
+    {"type":"field","rect":[58,5,29,15],"color":"#b7cf72","rows":true},
+    {"type":"field","rect":[12,45,24,20],"color":"#e1b968","rows":true},
+    {"type":"orchard","rect":[58,49,20,15]}, {"type":"pond","rect":[86,8,13,10]},
+    {"type":"label","x":72,"y":35,"text":"ПОСЁЛОК"}
+  ]
+}
